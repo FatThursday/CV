@@ -1,0 +1,125 @@
+body{
+    color: #40514E;
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 5.625rem;
+    color: #A6E3E9;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #71C9CE;
+    font-weight: normal;
+    padding: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #71C9CE;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted #E3FDFD 10px;
+    border-bottom: none;
+    width:4%;
+    margin:100px auto;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+/****************************CLASS SELECTORS*************************************/
+
+.top_container {
+    background-color: #E3FDFD;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    background-color: #CBF1F5;
+    padding: 100px 0;
+}
+.bottom-container {
+    background-color: #71C9CE;
+    padding: 50px 0 20px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 250px;
+    top: 50px
+}
+.circular{
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+}
+.experience-row{
+width: 50%;
+margin: 50px auto 50px auto;
+text-align: left;
+
+}
+.education-row{
+width: 50%;
+margin: auto;
+text-align: left;
+}
+.logo{
+    width: 8%;
+    height: 8%;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999e);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size:0.75em;
+    padding: 20px 0;
+}
